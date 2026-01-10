@@ -24,6 +24,9 @@ h6 {
   margin: 0;
 }
 
+img {
+  display: block;
+}
 /* --------------ALL SECTION-------------- */
 
 .section {
@@ -233,14 +236,13 @@ h6 {
 }
 
 .futures-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
-}
-
-.futures-icon {
-  display: block;
-  margin: 24px auto;
+  height: 112px;
 }
 
 .futures-listitem .section-subtitle {
@@ -377,7 +379,7 @@ h6 {
 
 .footer .container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 120px;
   padding-top: 100px;
   padding-bottom: 100px;
